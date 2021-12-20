@@ -26,7 +26,7 @@ describe('Create new campaign', function(){
         cy.get('[data-cy="email"]')
         .click()
     
-        // Select Project 'External automation project' from dropdown
+   // Select Project 'External automation project' from dropdown
     cy.get('[class="ant-select-selection__placeholder"]')
     .contains('Select your project')
     .click()
