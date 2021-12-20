@@ -74,6 +74,4 @@ describe('Create new campaign', function(){
     .click()
 
     })
-    
-    
 })
